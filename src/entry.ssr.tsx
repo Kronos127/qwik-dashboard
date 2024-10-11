@@ -26,8 +26,5 @@ export default function (opts: RenderToStreamOptions) {
       lang: "en-us",
       ...opts.containerAttributes,
     },
-    serverData: {
-      ...opts.serverData,
-    },
   });
 }

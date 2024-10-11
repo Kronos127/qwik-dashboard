@@ -3,27 +3,41 @@
     "allowJs": true,
     "target": "ES2017",
     "module": "ES2022",
-    "lib": ["es2022", "DOM", "WebWorker", "DOM.Iterable"],
+    "lib": [
+      "es2022",
+      "DOM",
+      "WebWorker",
+      "DOM.Iterable"
+    ],
     "jsx": "react-jsx",
     "jsxImportSource": "@builder.io/qwik",
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "moduleResolution": "Bundler",
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "incremental": true,
     "isolatedModules": true,
     "outDir": "tmp",
     "noEmit": true,
+    "types": [
+      "node",
+      "vite/client"
+    ],
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": [
+        "./src/*"
+      ]
     }
   },
-  "files": ["./.eslintrc.cjs"],
+  "files": [
+    "./.eslintrc.cjs"
+  ],
   "include": [
-    "src", 
-    "./*.d.ts", 
-    "./*.config.ts",     
-    "scripts/seed.js"],
+    "src",
+    "./*.d.ts",
+    "./*.config.ts",
+    "scripts/seed.js"
+  ]
 }

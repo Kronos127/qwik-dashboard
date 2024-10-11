@@ -13,7 +13,7 @@ export const SideNav = component$(() => {
         class="mb-2 flex h-20 items-end justify-start rounded-md bg-blue-600 p-4 md:h-40"
         href="/"
       >
-        <div class="w-32 text-white md:w-40">
+        <div class=" text-white ">
           <LRDQwikLogo />
         </div>
       </Link>
